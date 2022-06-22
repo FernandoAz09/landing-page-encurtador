@@ -18,7 +18,7 @@ body {
     margin: 0 auto;
 }
 
-
+/* ******************************** HEADER ******************************** */
 header nav {
     background: var(--light);
     display: flex;
@@ -44,6 +44,7 @@ header nav a {
     letter-spacing: 0.055em;
 }
 
+/* ******************************** SECTION HERO ******************************** */
 .hero {
     display: flex;
     justify-content: space-between;
@@ -88,4 +89,35 @@ header nav a {
 .hero-img img{
     width: 562px;
     height: 415px;
+}
+
+/* ******************************** SECTION DESCRIPTION ******************************** */
+.description{
+    background: var(--light-gray);
+    margin-top: 130px;
+}
+
+.input-container {
+    background: var(--light-blue); 
+    border-radius: 8px;  
+    width: 1047px;
+    height: 131px;
+    margin: 0 auto;
+    transform: translateY(-50%);
+}
+
+.input-container input {
+    width: 745px;
+    height: 44px;
+    margin: 44px 12px 44px 44px;
+    border-radius: 4px;
+}
+
+.input-container button {
+    border-radius: 4px;
+    width: 189px;
+    height: 44px;
+    border: none;
+    color: var(--light);
+    background: var(--dark-gray);
 }
