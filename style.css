@@ -110,8 +110,20 @@ header nav a {
     width: 745px;
     height: 44px;
     margin: 44px 12px 44px 44px;
+    border: none;
     border-radius: 4px;
+    padding-left: 11px;
+    outline: none;
 }
+
+.input-container input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--dark-gray);
+}
+
+
 
 .input-container button {
     border-radius: 4px;
@@ -120,4 +132,5 @@ header nav a {
     border: none;
     color: var(--light);
     background: var(--dark-gray);
+    cursor: pointer;
 }
