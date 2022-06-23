@@ -62,6 +62,8 @@ header nav a {
     font-weight: 700;
     font-size: 48px;
     line-height: 72px;
+    color: var(--dark-gray);
+    width: 474px;
 }
 
 .hero-content p {
@@ -80,6 +82,7 @@ header nav a {
     background-color: var(--light-blue);
     border: none;
     margin-top: 60px;
+    cursor: pointer;
 
     font-weight: 700;
     font-size: 22px;
@@ -92,10 +95,6 @@ header nav a {
 }
 
 /* ******************************** SECTION DESCRIPTION ******************************** */
-.description{
-    background: var(--light-gray);
-    margin-top: 130px;
-}
 
 .input-container {
     background: var(--light-blue); 
@@ -133,4 +132,45 @@ header nav a {
     color: var(--light);
     background: var(--dark-gray);
     cursor: pointer;
+}
+
+.description{
+    background: var(--light-gray);
+    margin-top: 130px;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+}
+
+.description h2 {
+    width: 564px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.description-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 87px 0 87px;
+}
+
+.description-container h4 {
+    margin-top: 20.86px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.description-container p {
+    width: 350px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.description-container > .description-content:not(:last-child) {
+    margin-right: 97px;
 }
