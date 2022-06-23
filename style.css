@@ -216,3 +216,15 @@ header nav a {
     font-size: 18px;
     line-height: 21px;
 }
+
+/* ******************************** SECTION FAQ ******************************** */
+
+.faq h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: var(--dark);
+    padding-bottom: 18px;
+}
+
