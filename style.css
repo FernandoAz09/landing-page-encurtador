@@ -228,3 +228,33 @@ header nav a {
     padding-bottom: 18px;
 }
 
+.details {
+    width: 634px;
+    margin: 0 auto;
+}
+
+.details p {
+    width: 605px;
+    height: 72px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: var(--dark);
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+.details summary {
+    width: 634px;
+    border-radius: 4px;
+    background: var(--light-gray);
+    margin-bottom: 18px;
+    color: var(--dark);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 9px;
+}
+
