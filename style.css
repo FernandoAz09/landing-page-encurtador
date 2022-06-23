@@ -13,7 +13,8 @@
     box-sizing: border-box;
 }
 
-body {
+body,
+button {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
 }
@@ -132,6 +133,9 @@ header nav a {
     color: var(--light);
     background: var(--dark-gray);
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .description{
@@ -162,6 +166,7 @@ header nav a {
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
+    color: var(--dark);
 }
 
 .description-container p {
@@ -169,8 +174,45 @@ header nav a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    color: var(--dark-gray);
 }
 
 .description-container > .description-content:not(:last-child) {
     margin-right: 97px;
+}
+
+/* ******************************** SECTION FAQ ******************************** */
+
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 116px;
+    padding-bottom: 172px;
+}
+
+.start h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.start p {
+    margin-top: 8px;
+    margin-bottom: 35px;
+}
+
+.start button {
+    width: 272px;
+    height: 42px;
+    border-radius: 4px;
+    color: var(--light);
+    background-color: var(--light-blue);
+    border: none;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
 }
