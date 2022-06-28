@@ -33,5 +33,5 @@
 
 ## Autores
 
-- [@FernandoAz09](https://www.github.com/FernandoAz09)
+- [@FernandoAz09](https://www.github.com/FernandoAz09) by [DevMentor](https://www.devmentor.com.br)
 
