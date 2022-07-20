@@ -12,7 +12,7 @@
 
 - Primeiramente duvidei da minha capacidade em desenvolver algo a partir de um layout do figma, mas assim que comecei tudo começou a fluir como se eu já tivesse feito o mesmo projeto várias vezes!!
 - Pude aplicar os conhecimentos aprendidos ao longo de todo esse tempo estudando e aplicando em pequenos projetos.
-- Utilizei um HTML semantico e um CSS de fácil compreensão e manuntenção.
+- Utilizei um HTML semântico e um CSS de fácil compreensão e manuntenção.
 
 <hr>
 
